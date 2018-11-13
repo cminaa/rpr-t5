@@ -1,7 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<GridPane fx:controller="ba.unsa.etf.rpr.tutorijal05.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="5" prefHeight="330.0" prefWidth="270.0" vgap="5" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rpr.tutorijal05.Controller">
+   <children>
+      <AnchorPane prefHeight="459.0" prefWidth="306.0">
+         <children>
+            <AnchorPane layoutY="-3.0" prefHeight="473.0" prefWidth="366.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <GridPane layoutX="30.0" layoutY="129.0" prefHeight="338.0" prefWidth="287.0" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="124.0">
+                    <columnConstraints>
+                      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="62.0" minHeight="10.0" prefHeight="62.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="97.0" minHeight="10.0" prefHeight="67.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="80.0" minHeight="10.0" prefHeight="59.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="102.0" minHeight="10.0" prefHeight="78.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="93.0" minHeight="10.0" prefHeight="56.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button fx:id="button7" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" text="7" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                        <Button fx:id="button8" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                        <Button fx:id="button9" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                        <Button fx:id="button4" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" text="4" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                        <Button fx:id="button5" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                        <Button fx:id="button6" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                        <Button fx:id="button1" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" text="1" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                        <Button fx:id="button2" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                        <Button fx:id="button3" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                        <Button fx:id="button0" mnemonicParsing="false" prefHeight="40.0" prefWidth="160.0" text="0" GridPane.columnSpan="2" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                        <Button fx:id="comma" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" text="," GridPane.columnIndex="2" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                        <Button fx:id="procenat" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" text="\%">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                        <Button fx:id="podijeljeno" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" text="/" GridPane.columnIndex="1">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                        <Button fx:id="minus" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" text="-" GridPane.columnIndex="3">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                        <Button fx:id="puta" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" text="×" GridPane.columnIndex="2">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                        <Button fx:id="plus" mnemonicParsing="false" prefHeight="120.0" prefWidth="75.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="1" GridPane.rowSpan="2">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin></Button>
+                        <Button fx:id="jednako" mnemonicParsing="false" prefHeight="120.0" prefWidth="75.0" text="=" GridPane.columnIndex="3" GridPane.rowIndex="3" GridPane.rowSpan="2">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding></Button>
+                     </children>
+                  </GridPane>
+                  <TextField layoutX="33.0" layoutY="39.0" prefHeight="70.0" prefWidth="275.0" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding></AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
 </GridPane>
