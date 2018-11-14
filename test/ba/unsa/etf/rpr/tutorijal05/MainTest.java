@@ -158,7 +158,7 @@ class MainTest {
         robot.clickOn("#btn2");
         robot.clickOn("#btn0");
         robot.clickOn("#equalsBtn");
-        assertEquals("100", display.getText());
+        assertEquals("100.0", display.getText());
     }
 
     @Test
@@ -172,7 +172,17 @@ class MainTest {
         robot.clickOn("#btn0");
         robot.clickOn("#btn0");
         robot.clickOn("#equalsBtn");
-        assertEquals("550", display.getText());
+        assertEquals("550.0", display.getText());
+    }
+
+    @Test
+    public void mod0(FxRobot robot){
+        display = robot.lookup("#display").queryAs(Label.class);
+        robot.clickOn("#btn6");
+        robot.clickOn("#modBtn");
+        robot.clickOn("#btn2");
+        robot.clickOn("#equalsBtn");
+        assertEquals("0.0",display.getText());
     }
 
 }
