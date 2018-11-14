@@ -6,7 +6,7 @@ import javafx.event.ActionEvent;
 public class Controller {
     private SimpleStringProperty rezultat;
     private double operand1, operand2;
-    private String operator;
+    private String operator ="=";
 
     public  Controller(){
         rezultat=new SimpleStringProperty();
@@ -108,7 +108,7 @@ public class Controller {
         operacija("*");
     }
 
-    public void podjeljeno(ActionEvent actionEvent){
+    public void podijeljeno(ActionEvent actionEvent){
         operacija("/");
     }
 

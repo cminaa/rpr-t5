@@ -106,4 +106,73 @@ class MainTest {
         robot.clickOn("#btn0");
         assertEquals("10", display.getText());
     }
+
+    @Test
+    public void number12Minus6Equals (FxRobot robot) {
+        display = robot.lookup("#display").queryAs(Label.class);
+        robot.clickOn("#btn1");
+        robot.clickOn("#btn2");
+        robot.clickOn("#minusBtn");
+        robot.clickOn("#btn6");
+        robot.clickOn("#equalsBtn");
+        assertEquals("6.0", display.getText());
+    }
+
+    @Test
+    public void nuber32modulus5(FxRobot robot) {
+        display = robot.lookup("#display").queryAs(Label.class);
+        robot.clickOn("#btn3");
+        robot.clickOn("#btn2");
+        robot.clickOn("#modBtn");
+        robot.clickOn("#btn5");
+        robot.clickOn("#equalsBtn");
+        assertEquals("2.0", display.getText());
+    }
+
+    @Test
+    public void division0With0(FxRobot robot) {
+        display = robot.lookup("#display").queryAs(Label.class);
+        robot.clickOn("#btn0");
+        robot.clickOn("#divideBtn");
+        robot.clickOn("#btn0");
+        robot.clickOn("#equalsBtn");
+        assertEquals("NaN", display.getText());
+    }
+
+    @Test
+    public void division25With0(FxRobot robot) {
+        display = robot.lookup("#display").queryAs(Label.class);
+        robot.clickOn("#btn2");
+        robot.clickOn("#btn5");
+        robot.clickOn("#divideBtn");
+        robot.clickOn("#btn0");
+        robot.clickOn("#equalsBtn");
+        assertEquals("Infinity", display.getText());
+    }
+
+    @Test
+    public void multiply5With20(FxRobot robot) {
+        display = robot.lookup("#display").queryAs(Label.class);
+        robot.clickOn("#btn5");
+        robot.clickOn("#timesBtn");
+        robot.clickOn("#btn2");
+        robot.clickOn("#btn0");
+        robot.clickOn("#equalsBtn");
+        assertEquals("100", display.getText());
+    }
+
+    @Test
+    public void multiply5comma5With100(FxRobot robot) {
+        display = robot.lookup("#display").queryAs(Label.class);
+        robot.clickOn("#btn5");
+        robot.clickOn("#dotBtn");
+        robot.clickOn("#btn5");
+        robot.clickOn("#timesBtn");
+        robot.clickOn("#btn1");
+        robot.clickOn("#btn0");
+        robot.clickOn("#btn0");
+        robot.clickOn("#equalsBtn");
+        assertEquals("550", display.getText());
+    }
+
 }

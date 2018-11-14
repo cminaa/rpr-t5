@@ -43,7 +43,7 @@
       <Button onAction="#modulo" fx:id="modBtn" maxWidth="Infinity" mnemonicParsing="false" text="\%" GridPane.rowIndex="1" />
       <Button onAction="#puta" fx:id="timesBtn" maxWidth="Infinity" mnemonicParsing="false" text="×" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       <Button onAction="#minus" fx:id="minusBtn" maxWidth="Infinity" mnemonicParsing="false" text="-" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-      <Button onAction="#podjeljeno" fx:id="divideBtn" maxWidth="Infinity" mnemonicParsing="false" text="/" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <Button onAction="#podijeljeno" fx:id="divideBtn" maxWidth="Infinity" mnemonicParsing="false" text="/" GridPane.columnIndex="3" GridPane.rowIndex="1" />
       <Label fx:id="display" maxWidth="Infinity" text="${controller.rezultat}" GridPane.columnSpan="4" />
    </children>
    <padding>
