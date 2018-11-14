@@ -27,23 +27,23 @@
       <RowConstraints valignment="CENTER" vgrow="ALWAYS" />
    </rowConstraints>
    <children>
-      <Button fx:id="btn7" maxWidth="Infinity" mnemonicParsing="false" text="7" GridPane.rowIndex="2" />
-      <Button fx:id="btn8" maxWidth="Infinity" mnemonicParsing="false" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-      <Button fx:id="btn9" maxWidth="Infinity" mnemonicParsing="false" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-      <Button fx:id="btn4" maxWidth="Infinity" mnemonicParsing="false" text="4" GridPane.rowIndex="3" />
-      <Button fx:id="btn5" maxWidth="Infinity" mnemonicParsing="false" text="5" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-      <Button fx:id="btn6" maxWidth="Infinity" mnemonicParsing="false" text="6" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-      <Button fx:id="btn1" maxWidth="Infinity" mnemonicParsing="false" text="1" GridPane.rowIndex="4" />
-      <Button fx:id="btn2" maxWidth="Infinity" mnemonicParsing="false" text="2" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-      <Button fx:id="btn3" maxWidth="Infinity" mnemonicParsing="false" text="3" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-      <Button fx:id="btn0" maxWidth="Infinity" mnemonicParsing="false" text="0" GridPane.columnSpan="2" GridPane.rowIndex="5" />
-      <Button fx:id="dotBtn" maxWidth="Infinity" mnemonicParsing="false" text="." GridPane.columnIndex="2" GridPane.rowIndex="5" />
-      <Button fx:id="plusBtn" maxHeight="Infinity" maxWidth="Infinity" mnemonicParsing="false" text="+" GridPane.columnIndex="3" GridPane.rowIndex="2" GridPane.rowSpan="2" />
-      <Button onAction="#ispisi" fx:id="equalsBtn" maxHeight="Infinity" maxWidth="Infinity" mnemonicParsing="false" text="=" GridPane.columnIndex="3" GridPane.rowIndex="4" GridPane.rowSpan="2" />
-      <Button fx:id="modBtn" maxWidth="Infinity" mnemonicParsing="false" text="\%" GridPane.rowIndex="1" />
-      <Button fx:id="timesBtn" maxWidth="Infinity" mnemonicParsing="false" text="×" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-      <Button fx:id="minusBtn" maxWidth="Infinity" mnemonicParsing="false" text="-" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-      <Button fx:id="divideBtn" maxWidth="Infinity" mnemonicParsing="false" text="/" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <Button onAction="#dugme7" fx:id="btn7" maxWidth="Infinity" mnemonicParsing="false" text="7" GridPane.rowIndex="2" />
+      <Button onAction="#dugme8" fx:id="btn8" maxWidth="Infinity" mnemonicParsing="false" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button onAction="#dugme9" fx:id="btn9" maxWidth="Infinity" mnemonicParsing="false" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Button onAction="#dugme4" fx:id="btn4" maxWidth="Infinity" mnemonicParsing="false" text="4" GridPane.rowIndex="3" />
+      <Button onAction="#dugme5" fx:id="btn5" maxWidth="Infinity" mnemonicParsing="false" text="5" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button onAction="#dugme6" fx:id="btn6" maxWidth="Infinity" mnemonicParsing="false" text="6" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Button onAction="#dugme1" fx:id="btn1" maxWidth="Infinity" mnemonicParsing="false" text="1" GridPane.rowIndex="4" />
+      <Button onAction="#dugme2" fx:id="btn2" maxWidth="Infinity" mnemonicParsing="false" text="2" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Button onAction="#dugme3" fx:id="btn3" maxWidth="Infinity" mnemonicParsing="false" text="3" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <Button onAction="#dugme0" fx:id="btn0" maxWidth="Infinity" mnemonicParsing="false" text="0" GridPane.columnSpan="2" GridPane.rowIndex="5" />
+      <Button onAction="#tacka" fx:id="dotBtn" maxWidth="Infinity" mnemonicParsing="false" text="." GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      <Button onAction="#plus" fx:id="plusBtn" maxHeight="Infinity" maxWidth="Infinity" mnemonicParsing="false" text="+" GridPane.columnIndex="3" GridPane.rowIndex="2" GridPane.rowSpan="2" />
+      <Button onAction="#jednako" fx:id="equalsBtn" maxHeight="Infinity" maxWidth="Infinity" mnemonicParsing="false" text="=" GridPane.columnIndex="3" GridPane.rowIndex="4" GridPane.rowSpan="2" />
+      <Button onAction="#modulo" fx:id="modBtn" maxWidth="Infinity" mnemonicParsing="false" text="\%" GridPane.rowIndex="1" />
+      <Button onAction="#puta" fx:id="timesBtn" maxWidth="Infinity" mnemonicParsing="false" text="×" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button onAction="#minus" fx:id="minusBtn" maxWidth="Infinity" mnemonicParsing="false" text="-" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Button onAction="#podjeljeno" fx:id="divideBtn" maxWidth="Infinity" mnemonicParsing="false" text="/" GridPane.columnIndex="3" GridPane.rowIndex="1" />
       <Label fx:id="display" maxWidth="Infinity" text="${controller.rezultat}" GridPane.columnSpan="4" />
    </children>
    <padding>
