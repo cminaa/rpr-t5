@@ -105,7 +105,7 @@ public class Controller {
     }
 
     public void puta(ActionEvent actionEvent){
-        operacija("*");
+        operacija("×");
     }
 
     public void podijeljeno(ActionEvent actionEvent){
