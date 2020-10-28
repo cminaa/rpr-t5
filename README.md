@@ -1,6 +1,6 @@
-# Tutorijal 5, Razvoj programskih rješenja 2018/2019.
+## Tutorijal 5, Razvoj programskih rješenja 2018/2019.
 
-# Digitron
+### Digitron
 
 > Jednostavna desktop aplikacija
 > koja pruža mogućnost obavljanja
